@@ -2,3 +2,23 @@
 @import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Color Palette */
+  --color-purple-700: hsl(242, 48%, 58%);
+  --color-purple-200: hsl(243, 100%, 82%);
+  --color-navy-900: hsl(237, 100%, 4%);
+  --color-gray-900: hsl(235, 16%, 15%);
+  --color-gray-800: hsl(235, 12%, 19%);
+  --color-gray-500: hsl(216, 15%, 57%);
+  --color-gray-300: hsl(221, 69%, 94%);
+  --color-gray-200: hsl(220, 69%, 97%);
+  --color-red-500: hsl(0, 78%, 63%);
+  --color-red-200: hsl(0, 100%, 80%);
+
+  /* Line Height */
+  --leading-4: 1.875rem; /* 30px */
+  --leading-3: 1.4375rem; /* 23px */
+  --leading-2: 1.1875rem; /* 19px */
+  --leading-1: 0.9375rem; /* 15px */
+}

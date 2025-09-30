@@ -4,6 +4,7 @@ import { getBaseURL } from '@/lib/get-base-url';
 import { betterAuth } from 'better-auth';
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
 import { nextCookies } from 'better-auth/next-js';
+import { anonymous } from 'better-auth/plugins';
 import { nanoid } from 'nanoid';
 
 export const auth = betterAuth({
@@ -18,5 +19,5 @@ export const auth = betterAuth({
       generateId: () => nanoid(10),
     },
   },
-  plugins: [nextCookies()],
+  plugins: [anonymous(), nextCookies()],
 });

@@ -1,5 +1,5 @@
 {
-  "id": "abd35b24-2b70-42e5-944e-862779c3b44a",
+  "id": "c4ca0a21-1daa-437f-9bd1-5d78b5dd0753",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -242,6 +242,12 @@
           "primaryKey": false,
           "notNull": true,
           "default": "now()"
+        },
+        "is_anonymous": {
+          "name": "is_anonymous",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": false
         }
       },
       "indexes": {},

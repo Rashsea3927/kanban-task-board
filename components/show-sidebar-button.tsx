@@ -14,7 +14,7 @@ export function ShowSidebarButton() {
         toggleSidebar();
       }}
     >
-      <Image src={IconShowSidebar} width={18} height={16} alt="" />
+      <Image src={IconShowSidebar} width={18} height={16} className="h-auto w-4" alt="" />
     </Button>
   );
 }

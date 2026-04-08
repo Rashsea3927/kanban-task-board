@@ -9,7 +9,7 @@ export function ToggleSidebar({ className }: { className?: string }) {
   return (
     <Button
       variant="ghost"
-      className="rounded-r-10xl h-12 cursor-pointer justify-start gap-[15px] pl-8 text-gray-400 transition-colors duration-400 hover:bg-purple-400 hover:text-purple-500 dark:hover:bg-white"
+      className="rounded-r-10xl h-12 cursor-pointer justify-start gap-[15px] pl-8 text-gray-400 transition-colors duration-400 hover:bg-purple-500/10 hover:text-purple-500 dark:hover:bg-white"
       onClick={() => {
         toggleSidebar();
       }}
